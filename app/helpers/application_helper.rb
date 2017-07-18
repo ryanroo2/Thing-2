@@ -16,6 +16,6 @@ module ApplicationHelper
   end
   
   def copyright_generator
-    DevcampViewTool::Renderer.copyright 'Ryan Peterson', 'All rights reserved'
+    CopyrightSigil::Renderer.copyright 'Ryan Peterson', 'All rights reserved'
   end
 end

@@ -4,4 +4,10 @@ class ApplicationController < ActionController::Base
   include SetSource
   include CurrentUserConcern
   include DefaultPageContent
+  
+  before_action :set_copyright
 end
+
+  def set_copyright
+    @copyright = CopyrightSigil::Renderer.copyright 'Ryan Peterson', 'All rights reserved'
+  end
