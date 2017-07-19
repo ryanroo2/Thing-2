@@ -57,4 +57,4 @@ gem 'devise', '~> 4.2'
 
 gem 'bootstrap', '~> 4.0.0.alpha6'
 
-gem 'copyright_sigil', git: 'https://github.com/ryanroo2/copyright-sigil'
+gem 'copyright_sigil', '~> 0.1.0'
