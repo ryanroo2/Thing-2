@@ -20,9 +20,6 @@ class PortfoliosController < ApplicationController
 
   def new
     @portfolio_item = Portfolio.new
-    if @portfolio_item.technologies.length == 0
-      3.times { @portfolio_item.technologies.build }
-    end
   end
 
   def create
@@ -75,7 +72,7 @@ class PortfoliosController < ApplicationController
     params.require(:portfolio).permit(:title, 
                                       :subtitle, 
                                       :body, 
-                                      technologies_attributes: [:name]
+                                      technologies_attributes: [:id, :name, :_destroy]
                                       )
   end  
   
