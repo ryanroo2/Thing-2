@@ -1,7 +1,0 @@
-<% if flash[:alert] %>
-  <%= js add_gritter(flash[:alert], :title => "Current Page", sticky:false) %>
-<% elseif flash[:error] %>
-  <%= js add_gritter(flash[:error], :title => "Current Page", sticky:false) %>
-<% else %>
-  <%= js add_gritter(flash[:notice], :title => "Current Page", sticky:false) %>
-<% end %>
