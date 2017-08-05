@@ -61,7 +61,7 @@ module ApplicationHelper
     alert = (flash[:alert] || flash[:error] || flash[:notice])
     
     if alert
-      alert_generator
+      alert_generator(alert)
     end
   end
   
