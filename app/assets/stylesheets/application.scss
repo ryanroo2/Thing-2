@@ -157,7 +157,7 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 55rem;
+    width: 65rem;
   }
 }
 
@@ -185,8 +185,8 @@ body {
 }
 
 .app-nav span {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 #background {
@@ -200,21 +200,41 @@ body {
   z-index: -100;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: image-url('Background-Image.png') no-repeat;
+  background: image-url('home_bg.png') no-repeat;
   background-size: cover;
 }
 
 .app-footer {
-  color:white;
+  color: white;
 }
 
+.tech-news {
+  color: black;
+  margin: 20px;
+}
 
+.tech-news > .card {
+  padding: 30px;
+}
 
+.tech-news a {
+  color: green;
+}
 
+.app-card-container {
+  color: black;
+  text-align: left;
+}
 
+.app-card-container > .card {
+  padding: 40px;
+}
 
+.profile-img {
+  border: 1px solid grey;
+}
 
-
-
-
+.app-card-container a {
+  color: blue;
+}
 
