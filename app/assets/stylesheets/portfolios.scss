@@ -38,7 +38,7 @@ body {
 
 .card {
   float: left;
-  width: 33.333%;
+  width: 100%;
   padding: .75rem;
   margin-bottom: 2rem;
   border: 0;
@@ -63,6 +63,6 @@ footer p {
 
 /* Custom styles */
 
-.portfolio-form {
-  padding: 20px;
+.portfolio-container {
+  padding-top: 30px;
 }
